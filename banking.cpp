@@ -95,7 +95,7 @@ do {
                 displayWithdrawalOptions();
                 cin >> withdrawalOption;
 
-                switch (withdrawalOption) {
+                switch (withdrawalOption) { //Withdrawal payment option
                     case 1:
                         amount = 500;
                         break;
@@ -138,7 +138,7 @@ do {
                 cout << "Invalid option. Please try again.\n";
                 displayMenu();
         }
-    } while (option != 4);
+ } while (option != 4);
 
     return 0;
 }
